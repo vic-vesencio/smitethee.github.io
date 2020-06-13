@@ -1,0 +1,39 @@
+{
+  "name": "web-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitethee/web-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Vic Vesencio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitethee/web-portfolio/issues"
+  },
+  "homepage": "https://github.com/smitethee/web-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.5.3",
+    "exports-loader": "^1.0.0",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
