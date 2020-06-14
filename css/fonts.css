@@ -6,3 +6,19 @@
   font-family: 'pixeboy';
   src: URL('../fonts/Pixeboy-z8XGD.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'elfboyclassic';
+  src: URL('../fonts/Elfboyclassic-PKZgZ.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'bloxat';
+  src: URL('../fonts/Bloxat-PDoE.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'EightBitDragon';
+  src: URL('../fonts/EightBitDragon-anqx.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GridkingRegular';
+  src: URL('../fonts/GridkingRegular-77vw.ttf') format('truetype');
+}
