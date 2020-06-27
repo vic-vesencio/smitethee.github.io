@@ -1,0 +1,123 @@
+body {
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,228,199,1) 0%, rgba(255,231,204,1) 100%);
+}
+
+
+html, body {
+	height: 100%;
+	overflow-y: hidden;
+	margin: 0px;
+}
+
+.btn-tab{
+	font-family: elfboyclassic;
+	font-size: 50px;
+	background-color: transparent;
+	padding: 5px;
+	border: 0px;
+}
+
+.btn-tab:hover{
+	background-color: #cc66ff;
+}
+
+.selected-btn{
+	background-color: lightblue;
+}
+
+.selected-btn:hover{
+	background-color: lightblue !important;
+}
+button:focus{
+	outline:0 !important;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.tab {
+	height: 75% !important;
+}
+
+.container {
+  height: 100% !important;
+}
+
+.bg-tab {
+	background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,228,199,1) 0%, rgba(255,231,204,1) 100%);
+  }
+  
+  
+  html, body {
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0px;
+  }
+  
+  .btn-tab{
+    font-family: elfboyclassic;
+    font-size: 50px;
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+  }
+  
+  .btn-tab:hover{
+    background-color: #cc66ff;
+  }
+  
+  .selected-btn{
+    background-color: lightblue;
+  }
+  
+  .selected-btn:hover{
+    background-color: lightblue !important;
+  }
+  button:focus{
+    outline:0 !important;
+  }
+  
+  .transparent {
+    background-color: transparent;
+  }
+  
+  .tab {
+    height: 100% !important;
+  }
+  
+  .bg-tab {
+    background-color: lightblue;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: purple;
+  }
+}
