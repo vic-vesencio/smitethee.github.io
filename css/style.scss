@@ -57,7 +57,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
+  $base-font: 1em;
   body {
     max-width: 600px;
     background: rgb(255,255,255);
@@ -68,6 +68,7 @@ a:hover {
     height: 100%;
     overflow-y: scroll;
     margin: 0px;
+    font-size: $base-font/1.7;
   }
 
   .container {
