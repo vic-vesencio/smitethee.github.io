@@ -3,7 +3,6 @@ body {
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,228,199,1) 0%, rgba(255,231,204,1) 100%);
 }
 
-
 html, body {
 	height: 100%;
 	overflow-y: hidden;
@@ -41,10 +40,6 @@ button:focus{
 	height: 75% !important;
 }
 
-.container {
-  height: 100% !important;
-}
-
 .bg-tab {
 	background-color: lightblue;
 }
@@ -62,22 +57,26 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
   body {
+    max-width: 600px;
     background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,228,199,1) 0%, rgba(255,231,204,1) 100%);
+    background-color: lightblue;
   }
-  
   
   html, body {
     height: 100%;
     overflow-y: scroll;
     margin: 0px;
   }
-  
+
+  .container {
+    margin-top: -50px;
+  }
   .btn-tab{
     font-family: elfboyclassic;
     font-size: 50px;
-    background-color: transparent;
+    background-color: #fce4cc;
     padding: 5px;
     border: 0px;
   }

@@ -22,3 +22,8 @@
   font-family: 'GridkingRegular';
   src: URL('../fonts/GridkingRegular-77vw.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'metalHead';
+  src: URL('../fonts/MetalHead-GLqZ.ttf') format('truetype');
+}
+
